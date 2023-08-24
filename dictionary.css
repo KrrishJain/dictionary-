@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 3vw;
+    background: #04fa94;
+}
+nav h1{
+    color: #000;
+    font-size: 2vw;
+    font-weight: 700;
+    padding-top: 0.3vw;
+    padding-left: 6vw;
+}
+main h1 {
+    text-align: center;
+    padding-top: 2vw;
+    font-family: bold;
+    font-size: 3vw;
+    font-weight: 800;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form input{
+    width: 30vw;
+    height: 3vw;
+    margin-top: 3vw;
+}
+form button {
+    height: 3.1vw;
+    width: 6vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 3vw;
+    background: #04fa94;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+form button:hover{
+    background: #000000;
+    color: white;
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 1vw;
+    text-align: center;
+}
+.loading{
+    display: none;
+}
+
+section.data p.def{
+    font-size: 2vw;
+    letter-spacing: 0.3px;
+}
+.not_found{
+    font-size: 1.6vw;
+}
+.suggested{
+    background:#04fa94 ;
+    color: #000;
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0.7vw 0.5vw;
+}
